@@ -35,8 +35,8 @@
     <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
 
     <!-- Indicação de cordas (X / bolinhas) -->
-    <text x="40" y="25" font-size="14" font-family="Arial" fill="#000" text-anchor="middle">X</text> <!-- E grave -->
-    <text x="60" y="25" font-size="14" font-family="Arial" fill="#000" text-anchor="middle">X</text> <!-- A -->
+    <text x="40" y="25" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text> <!-- E grave -->
+    <text x="60" y="25" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text> <!-- A -->
     <circle cx="80" cy="25" r="5" fill="#000"/> <!-- D grave (baixo) -->
     <circle cx="100" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/> <!-- G -->
     <circle cx="120" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/> <!-- B -->
