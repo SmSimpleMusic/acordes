@@ -34,7 +34,7 @@
     <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
 
     <!-- Bolinhas topo: cordas tocadas -->
-    <text x="40" y="30" font-size="16" font-family="Arial" fill="#000" text-anchor="middle">X</text>
+    <text x="40" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text>
     <circle cx="60" cy="25" r="5" fill="black"/>
     <circle cx="80" cy="25" r="5" fill="white" stroke="#000"/>
     <circle cx="100" cy="25" r="5" fill="white" stroke="#000"/>
@@ -45,15 +45,15 @@
     <rect x="60" y="68" width="80" height="10" rx="5" ry="5" fill="#D42D2D"/>
     <text x="100" y="76" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
 
-    <!-- Dedo 2 na casa 3, corda B (ajustado para baixo) -->
+    <!-- Dedo 2 na casa 3, corda B -->
     <circle cx="120" cy="102" r="8" fill="#D42D2D"/>
     <text x="120" y="107" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
 
-    <!-- Dedo 3 na casa 4, corda D (ajustado para baixo) -->
+    <!-- Dedo 3 na casa 4, corda D -->
     <circle cx="80" cy="127" r="8" fill="#D42D2D"/>
     <text x="80" y="132" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
 
-    <!-- Dedo 4 na casa 4, corda G (ajustado para baixo) -->
+    <!-- Dedo 4 na casa 4, corda G -->
     <circle cx="100" cy="127" r="8" fill="#D42D2D"/>
     <text x="100" y="132" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
   </g>
