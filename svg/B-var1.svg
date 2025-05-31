@@ -42,10 +42,9 @@
     <circle cx="120" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="140" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
 
-    <!-- Dedos -->
-    <!-- Dedo 1: pestana na 2ª casa ajustada para largura igual ao exemplo -->
-    <rect x="40" y="72" width="100" height="16" fill="#D42D2D" rx="4" ry="4"/>
-    <text x="90" y="84" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+    <!-- Pestana na casa 2 (dedo 1), IGUAL à do Fá maior -->
+    <rect x="40" y="72" width="100" height="10" rx="5" ry="5" fill="#D42D2D"/>
+    <text x="90" y="80" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
 
     <!-- Dedo 2: 4ª casa, 4ª corda -->
     <circle cx="80" cy="128" r="8" fill="#D42D2D"/>
