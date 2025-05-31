@@ -35,7 +35,7 @@
     <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
 
     <!-- Indicadores das cordas soltas, abafadas e baixo -->
-    <text x="40" y="25" font-size="14" font-family="Arial" fill="#000" text-anchor="middle">X</text>
+    <text x="40" y="25" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text>
     <circle cx="60" cy="25" r="5" fill="#000"/>
     <circle cx="80" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="100" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
