@@ -1,4 +1,4 @@
-<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="D#">
+<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="B maior">
   <g transform="translate(0, 10)">
     <rect width="180" height="200" fill="#fff"/>
 
@@ -25,13 +25,14 @@
     <line x1="40" y1="115" x2="140" y2="115" stroke="#000" stroke-width="1"/>
     <line x1="40" y1="140" x2="140" y2="140" stroke="#000" stroke-width="1"/>
     <line x1="40" y1="165" x2="140" y2="165" stroke="#000" stroke-width="1"/>
+    <line x1="40" y1="190" x2="140" y2="190" stroke="#000" stroke-width="1"/>
 
     <!-- Números das casas -->
-    <text x="20" y="60" font-size="12" font-family="Arial" fill="#000">1</text>
-    <text x="20" y="85" font-size="12" font-family="Arial" fill="#000">2</text>
-    <text x="20" y="110" font-size="12" font-family="Arial" fill="#000">3</text>
-    <text x="20" y="135" font-size="12" font-family="Arial" fill="#000">4</text>
-    <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
+    <text x="20" y="60" font-size="12" font-family="Arial" fill="#000">5</text>
+    <text x="20" y="85" font-size="12" font-family="Arial" fill="#000">6</text>
+    <text x="20" y="110" font-size="12" font-family="Arial" fill="#000">7</text>
+    <text x="20" y="135" font-size="12" font-family="Arial" fill="#000">8</text>
+    <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">9</text>
 
     <!-- Bolinhas topo: cordas tocadas -->
     <text x="40" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text>
@@ -41,17 +42,20 @@
     <circle cx="120" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="140" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
 
-    <!-- Pestana na casa 1 (dedo 1) -->
-    <rect x="55" y="48" width="90" height="10" rx="5" ry="5" fill="#D42D2D"/>
-    <text x="100" y="57" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+    <!-- Pestana na casa 2 (dedo 1), IGUAL à do Fá maior -->
+    <rect x="40" y="72" width="100" height="10" rx="5" ry="5" fill="#D42D2D"/>
+    <text x="90" y="80" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
 
-    <!-- Dedo 3 na casa 3, corda 5 (A) -->
-    <circle cx="60" cy="100" r="8" fill="#D42D2D"/>
-    <text x="60" y="105" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+    <!-- Dedo 2: 4ª casa, 4ª corda -->
+    <circle cx="80" cy="128" r="8" fill="#D42D2D"/>
+    <text x="80" y="134" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
 
-    <!-- Dedo 4 na casa 3, corda 4 (D) -->
-    <circle cx="80" cy="100" r="8" fill="#D42D2D"/>
-    <text x="80" y="105" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+    <!-- Dedo 3: 4ª casa, 3ª corda -->
+    <circle cx="100" cy="128" r="8" fill="#D42D2D"/>
+    <text x="100" y="134" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
 
+    <!-- Dedo 4: 4ª casa, 2ª corda -->
+    <circle cx="120" cy="128" r="8" fill="#D42D2D"/>
+    <text x="120" y="134" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
   </g>
 </svg>
