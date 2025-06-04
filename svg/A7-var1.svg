@@ -34,19 +34,19 @@
     <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
 
     <!-- Bolinhas topo -->
-    <circle cx="40" cy="25" r="5" fill="black"/>
-    <circle cx="60" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
+    <text x="40" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text>
+    <circle cx="60" cy="25" r="5" fill="black"/>
     <circle cx="80" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="100" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="120" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="140" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
 
-    <!-- Dedo 1 na 2ª corda, casa 2 -->
+    <!-- Dedo 2 na 2ª corda, casa 2 -->
     <circle cx="80" cy="77" r="8" fill="#D42D2D"/>
-    <text x="80" y="82" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+    <text x="80" y="82" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
 
-    <!-- Dedo 2 na 4ª corda, casa 2 -->
+    <!-- Dedo 3 na 4ª corda, casa 2 -->
     <circle cx="120" cy="77" r="8" fill="#D42D2D"/>
-    <text x="120" y="82" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+    <text x="120" y="82" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
   </g>
 </svg>
