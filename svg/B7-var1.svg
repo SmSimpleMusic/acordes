@@ -1,4 +1,4 @@
-<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="C7 shape ajustado">
+<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="C7 shape final ajustado">
   <g transform="translate(0, 10)">
     <rect width="180" height="200" fill="#fff"/>
 
@@ -34,7 +34,7 @@
     <text x="20" y="160" font-size="12" font-family="Arial" fill="#000">5</text>
 
     <!-- Bolinhas topo -->
-    <text x="40" y="29" font-size="14" font-family="Arial" fill="#000" text-anchor="middle">X</text>
+    <text x="40" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text>
     <circle cx="60" cy="25" r="5" fill="black"/>
     <circle cx="80" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
     <circle cx="100" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"/>
