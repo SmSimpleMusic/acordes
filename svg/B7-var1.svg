@@ -1,4 +1,4 @@
-<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="C7 shape">
+<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" aria-label="C7 shape ajustado">
   <g transform="translate(0, 10)">
     <rect width="180" height="200" fill="#fff"/>
 
@@ -49,8 +49,8 @@
     <circle cx="80" cy="127" r="8" fill="#D42D2D"/>
     <text x="80" y="132" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
 
-    <!-- Dedo 4 na 5ª corda, casa 4 -->
-    <circle cx="60" cy="127" r="8" fill="#D42D2D"/>
-    <text x="60" y="132" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+    <!-- Dedo 4 na 2ª corda, casa 4 -->
+    <circle cx="120" cy="127" r="8" fill="#D42D2D"/>
+    <text x="120" y="132" font-size="12" font-family="Arial" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
   </g>
 </svg>
