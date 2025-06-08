@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 220" width="180" height="220">
+  
+      <style>
+        text { font-family: Arial, sans-serif; }
+      </style>
+    
+  
+  <defs>
+    <linearGradient id="degrade-inferior" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="1"></stop>
+      <stop offset="40%" stop-color="white" stop-opacity="0.95"></stop>
+      <stop offset="70%" stop-color="white" stop-opacity="0.8"></stop>
+      <stop offset="100%" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 10)">
+    <rect width="180" height="200" fill="#fff"></rect>
+
+    <!-- Letras das cordas em negrito -->
+    <text x="40" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">E</text>
+    <text x="60" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">A</text>
+    <text x="80" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">D</text>
+    <text x="100" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">G</text>
+    <text x="120" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">B</text>
+    <text x="140" y="12" font-size="14" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">E</text>
+
+    <!-- Cordas -->
+    <line x1="40" y1="30" x2="40" y2="200" stroke="#000" stroke-width="1"></line>
+    <line x1="60" y1="30" x2="60" y2="200" stroke="#000" stroke-width="1"></line>
+    <line x1="80" y1="30" x2="80" y2="200" stroke="#000" stroke-width="1"></line>
+    <line x1="100" y1="30" x2="100" y2="200" stroke="#000" stroke-width="1"></line>
+    <line x1="120" y1="30" x2="120" y2="200" stroke="#000" stroke-width="1"></line>
+    <line x1="140" y1="30" x2="140" y2="200" stroke="#000" stroke-width="1"></line>
+
+    <!-- Trastes -->
+    <line x1="40" y1="40" x2="140" y2="40" stroke="#000" stroke-width="5"></line>
+    <line x1="40" y1="65" x2="140" y2="65" stroke="#000" stroke-width="1"></line>
+    <line x1="40" y1="90" x2="140" y2="90" stroke="#000" stroke-width="1"></line>
+    <line x1="40" y1="115" x2="140" y2="115" stroke="#000" stroke-width="1"></line>
+    <line x1="40" y1="140" x2="140" y2="140" stroke="#000" stroke-width="1"></line>
+    <line x1="40" y1="165" x2="140" y2="165" stroke="#000" stroke-width="1"></line>
+    <line x1="40" y1="190" x2="140" y2="190" stroke="#000" stroke-width="1"></line>
+
+    <!-- Camada dos elementos dinâmicos -->
+    <g id="elements"><g class="topo-marcador"><text x="40" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text></g><g class="topo-marcador"><text x="60" y="30" font-size="18" font-family="Arial" fill="#000" text-anchor="middle" font-weight="bold">×</text></g><g class="topo-marcador"><circle cx="80" cy="25" r="5" fill="black"></circle></g><g class="topo-marcador"><circle cx="100" cy="25" r="5" fill="black"></circle></g><g class="topo-marcador"><circle cx="100" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"></circle></g><g class="topo-marcador"><circle cx="120" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"></circle></g><g class="topo-marcador"><circle cx="140" cy="25" r="5" fill="white" stroke="#000" stroke-width="1"></circle></g><g class="dedo">
+      <circle cx="100" cy="77" r="8" fill="#D42D2D"></circle>
+      <text x="100" y="77" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">1</text>
+    </g><g class="dedo">
+      <circle cx="100" cy="77" r="8" fill="#D42D2D"></circle>
+      <text x="100" y="77" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">3</text>
+    </g><g class="dedo">
+      <circle cx="100" cy="77" r="8" fill="#D42D2D"></circle>
+      <text x="100" y="77" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">1</text>
+    </g><g class="dedo">
+      <circle cx="140" cy="77" r="8" fill="#D42D2D"></circle>
+      <text x="140" y="77" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">3</text>
+    </g><g class="dedo">
+      <circle cx="120" cy="102" r="8" fill="#D42D2D"></circle>
+      <text x="120" y="102" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-weight="bold">4</text>
+    </g></g>
+
+    <!-- Número da casa ajustado e em negrito -->
+    <text id="casaNumero" x="14" y="57" font-size="14" font-family="Arial" fill="#000" font-weight="bold"></text>
+
+    <!-- Degradê -->
+    <rect x="0" y="150" width="180" height="70" fill="url(#degrade-inferior)"></rect>
+  </g>
+
+</svg>
